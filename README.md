@@ -1,6 +1,6 @@
-# IDE-Rust
+# pulsar-ide-rust
 
-Rust language support for Atom-IDE, powered by [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer).
+Rust language support for Pulsar Edit, powered by [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer).
 
 ## Features
 
@@ -18,10 +18,10 @@ Rust language support for Atom-IDE, powered by [rust-analyzer](https://github.co
 
 ## Install
 
-Install from Settings view by searching for `ide-rust`, or with the command line:
+Install from Settings view by searching for `pulsar-ide-rust`, or with the command line:
 
 ```
-$ apm install ide-rust
+$ ppm install pulsar-ide-rust
 ```
 
 ### Prerequisites
@@ -70,21 +70,7 @@ Refer to the rust-analyzer [User Manual](https://rust-analyzer.github.io/manual.
 
 ## Commands
 
-- `ide-rust:restart-all-language-servers` Restart all currently active Rls processes
-
-## Debugging IDE-Rust
-
-If stuff isn't working you can try **enabling logging** to debug:
-
-- Open the atom console _(ctrl-shift-i)_
-- Enter `atom.config.set('core.debugLSP', true)`
-- Reload atom _(ctrl-shift-F5)_
-
-This will spit out language server message logging into the atom console. Check if requests/responses are being sent or are incorrect.
-
-## RLS
-
-RLS is no longer supported. To use RLS install a previous version of ide-rust, `apm install ide-rust@0.21.2`.
+- `pulsar-ide-rust:restart-all-language-servers` Restart all currently active Rls processes
 
 ## Screenshots
 
