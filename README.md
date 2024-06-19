@@ -1,6 +1,6 @@
 # IDE-Rust
 
-Rust language support for Atom-IDE, powered by [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer).
+Rust language support for Pulsar, powered by [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer).
 
 ## Features
 
@@ -23,6 +23,14 @@ Install from Settings view by searching for `ide-rust`, or with the command line
 ```
 $ apm install ide-rust
 ```
+
+###
+
+Development
+
+After cloning install the package: `pulsar -p install`
+Link to development mode: `pulsar -p link -d`
+Open Pulsar in Dev Mode
 
 ### Prerequisites
 

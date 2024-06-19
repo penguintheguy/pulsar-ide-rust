@@ -1,13 +1,13 @@
 {
   "name": "pulsar-ide-rust",
   "main": "./lib/index",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Rust language support for Pulsar Edit",
   "repository": "https://github.com/Skeletonxf/pulsar-ide-rust/",
   "license": "MIT",
   "keywords": [
     "rust",
-    "rls",
+    "rust-analyzer",
     "ide"
   ],
   "package-deps": [
